@@ -5,7 +5,7 @@ VoucherScan
 Tested on Debian, Mint
 
 How to use 
-sudo python3 scan1.py 
+ sudo python3 scan1.py 
 
 
 
