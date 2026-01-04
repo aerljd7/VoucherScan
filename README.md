@@ -1,17 +1,12 @@
-VoucherScan 
-
-Uses arp scan to search devices and saves the mac addresses to a file
-
-
-
+VoucherScan - Uses arp scan to search devices and saves the mac addresses to a file
 
 Tested on Omada voucher type  
 
 OS: Debian, Mint
 
-To run: sudo python3 scan1.py 
+Run: sudo python3 scan1.py 
 
-snapshot
+snapshot:
 
 <img width="648" height="438" alt="image" src="https://github.com/user-attachments/assets/1ab73def-5bef-466b-81b6-92972ea4e465" />
 
