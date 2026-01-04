@@ -8,6 +8,6 @@ Run: sudo python3 scan1.py
 
 snapshot:
 
-<img width="648" height="438" alt="image" src="https://github.com/user-attachments/assets/1ab73def-5bef-466b-81b6-92972ea4e465" />
+<img width="646" height="407" alt="image" src="https://github.com/user-attachments/assets/12f362a9-188e-474f-a26a-f08f4f177d02" />
 
 
