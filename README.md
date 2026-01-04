@@ -1,10 +1,12 @@
 VoucherScan 
 
- -uses arp scan to search devices from the network
+Uses arp scan to search devices and saves the mac addresses to a file
 
-Tested on Debian, Mint
 
-run: sudo python3 scan1.py 
+Tested on Omada voucher type
+OS: Debian, Mint
+
+To run: sudo python3 scan1.py 
 
 
 
