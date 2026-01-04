@@ -1,4 +1,4 @@
-VoucherScan - Uses arp scan to search devices and saves the mac addresses to a file
+VoucherScan - Uses arp scan to search devices on local network
 
 Tested on Omada voucher type  
 
