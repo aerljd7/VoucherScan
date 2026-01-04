@@ -3,6 +3,8 @@ VoucherScan
 Uses arp scan to search devices and saves the mac addresses to a file
 
 
+
+
 Tested on Omada voucher type  
 
 OS: Debian, Mint
