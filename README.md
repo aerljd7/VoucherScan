@@ -13,6 +13,6 @@ To run: sudo python3 scan1.py
 
 snapshot
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/2cbaefcc-bc07-4450-8d7d-2a790799ae27" />
+<img width="648" height="438" alt="image" src="https://github.com/user-attachments/assets/1ab73def-5bef-466b-81b6-92972ea4e465" />
 
 
