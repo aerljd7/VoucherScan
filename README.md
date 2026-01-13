@@ -11,7 +11,7 @@ OneClick
 
 OS: Debian, Mint
 
-Run: sudo python3 main.py 
+Run: sudo python3 main.py
 Open Files Mac History
 Run: sudo bash mac.sh -f WiFI_ssid.txt
 
