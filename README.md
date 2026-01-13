@@ -12,7 +12,7 @@ OneClick
 
 OS: Debian, Mint
 
-
+----------------------------------
 
 Run: sudo python3 main.py
 
