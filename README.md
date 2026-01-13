@@ -1,13 +1,14 @@
 VoucherScan - Uses arp scan to search devices on local network
+IF AP Isolation is Enabled, The Script Will Not Work
+Tested on
+Omada voucher type
+OneClick
 
-Tested on Omada voucher type  
 
 OS: Debian, Mint
 
-Run: sudo python3 scan1.py 
-
-snapshot:
-
-<img width="646" height="407" alt="image" src="https://github.com/user-attachments/assets/12f362a9-188e-474f-a26a-f08f4f177d02" />
+Run: sudo python3 main.py 
+Open Files Mac History
+Run: sudo bash mac.sh -f WiFI_ssid.txt
 
 
