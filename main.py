@@ -4,10 +4,6 @@ import time
 import shutil
 import subprocess
 
-#check for root permission
-if os.geteuid() != 0:
-    print("This script must be run as root. Please use sudo.")
-    sys.exit(1)
 
 # Check if arp-scan is installed
 if shutil.which("arp-scan") is not None:
