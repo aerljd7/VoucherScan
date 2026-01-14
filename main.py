@@ -66,7 +66,6 @@ def arp_scan(output_file="mac.txt", timeout=10, max_retries=3,):
             )
             break  # success
 
-
         except subprocess.TimeoutExpired:
             print("ARP scan timed out.")
         except subprocess.CalledProcessError:
@@ -87,9 +86,7 @@ def arp_scan(output_file="mac.txt", timeout=10, max_retries=3,):
         print("Maximum retries reached. Insert coin to open ports.")
         return False
 
-
-
-#Print Ip and Mac
+    #Print Ip and Mac
     devices = dict()
 
     for line in result.stdout.splitlines():
