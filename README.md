@@ -1,4 +1,6 @@
 VoucherScan - Scanner for voucher type vendo machine
+----------------------------------
+
 
 Uses arp scan to search devices on local network
 
