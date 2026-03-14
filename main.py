@@ -102,7 +102,7 @@ def arp_scan(output_file="mac.txt", timeout=10, max_retries=3,):
     for ip, mac in devices.items():
         print(f"{ip} -> {mac}")
 
-    #crete files
+    #Create files
     mac_addresses = set()
 
     for line in result.stdout.splitlines():
@@ -116,7 +116,7 @@ def arp_scan(output_file="mac.txt", timeout=10, max_retries=3,):
         print("No Devices found.")
         return False
 
-    #open output file and write new one
+    #Open output file and write new one
     with open(output_file, "w") as f:
         for mac in sorted(mac_addresses):
             f.write(mac + "\n")
@@ -142,7 +142,7 @@ def arp_scan(output_file="mac.txt", timeout=10, max_retries=3,):
     return True
 
 
-# run macchanger shell mac.sh
+
 
 if __name__ == "__main__":
     while True:
