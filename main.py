@@ -4,6 +4,17 @@ import time
 import shutil
 import subprocess
 
+
+
+
+print(f"
+\n _    __                 __              _____                
+\n| |  / /___  __  _______/ /_  ___  _____/ ___/_________ _____ 
+\n| | / / __ \/ / / / ___/ __ \/ _ \/ ___/\__ \/ ___/ __ `/ __ \
+\n| |/ / /_/ / /_/ / /__/ / / /  __/ /   ___/ / /__/ /_/ / / / /
+\n|___/\____/\__,_/\___/_/ /_/\___/_/   /____/\___/\__,_/_/ /_/ \n")
+                                            
+    
 #check for root permission
 if os.geteuid() != 0:
     print("This script must be run as root. Please use sudo.")
