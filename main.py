@@ -30,7 +30,6 @@ else:
         print(f"Error occurred while trying to install arp-scan: {e}")
 
 #Get ssid
-time.sleep(5)
 def get_ssid():
     try:
         result = subprocess.check_output(["iwgetid", "-r"])
@@ -98,9 +97,9 @@ def arp_scan(output_file="mac.txt", timeout=10, max_retries=3,):
             mac = parts[1].strip()
             devices[ip] = mac  # map IP to MAC
 
-    print("\nDevices:")
-    for ip, mac in devices.items():
-        print(f"{ip} -> {mac}")
+    #print("\nDevices:")
+    #for ip, mac in devices.items():
+        #print(f"{ip} -> {mac}")
 
     #Create files
     mac_addresses = set()
