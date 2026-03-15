@@ -1,0 +1,1 @@
+\033[1;34m#########################\033[0m\n\033[1;34m#      VoucherScan      #\033[0m\n\033[1;34m#########################\033[0m\n\n\033[1;32mWelcome to VoucherScan!\033[0m\n\033[1;33mA powerful tool for managing and scanning vouchers easily.\033[0m\n\n\033[1;35mVersion: 1.0.0\033[0m\n\033[1;36mAuthor: aerljd7\033[0m\n\033[1;36mDate: 2026-03-15\033[0m
